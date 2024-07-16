@@ -1,0 +1,74 @@
+body {
+    font-family:fantasy;
+    background-image: url(https://wallpapers.com/images/hd/hogwarts-school-castle-harry-potter-desktop-ti73p8h2zh711jo9.jpg);
+    background-size: cover;
+}
+
+.uk-card-title {
+    font-family: fantasy;
+    font-size: 3rem;
+}
+a {
+    text-decoration: none !important;
+}
+
+.uk-card-body {
+    text-align: center;
+}
+
+.uk-modal-body {
+    text-align: center;
+}
+
+.uk-flex-middle {
+    align-items: center !important;
+}
+
+.uk-container {
+    padding-bottom: 10rem;
+
+}
+
+.uk-margin {
+    margin-bottom: 1px !important;
+}
+
+.uk-button {
+    font-size:2rem;
+    display:contents;
+}
+
+@media (min-width: 640px) {
+    .uk-container {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+}
+
+.uk-card-secondary {
+    height: 30rem;
+    width: 70rem;
+}
+
+.uk-card-default {
+    background-color: rgb(26, 25, 25);
+}
+.uk-card-default .uk-card-title {
+    color: #bbafaf;
+}
+.canvas, img, video {
+    max-width: 20rem;
+    height: 20rem;
+    box-sizing: border-box;
+}
+.logo-image {
+    max-width: 50rem;
+    height: 10rem;
+}
+
+.address, dl, fieldset, figure, ol, p, pre {
+    font-size:1.5rem;
+    margin-left: 20px !important;
+    margin: 0 0 20px 0;
+}
